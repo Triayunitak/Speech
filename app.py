@@ -7,7 +7,7 @@ from audiorecorder import audiorecorder # (BARU) Impor library baru
 
 # --- Konfigurasi Halaman & CSS (Sama seperti sebelumnya) ---
 st.set_page_config(
-    page_title="Detektor Perintah Pintu",
+    page_title="Detektor Perintah Pintu : Buka atau Tutup",
     page_icon="🎙️",
     layout="centered"
 )
