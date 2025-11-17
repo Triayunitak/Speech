@@ -46,7 +46,7 @@ def load_models():
         return model, scaler
     except FileNotFoundError:
         st.error("Model 'speech_model.pkl' atau 'scaler.pkl' tidak ditemukan.")
-        st.error("Harap jalankan 'train_model.py' terlebih dahulu.")
+        st.error("Harap jalankan 'train_model.py' dahulu.")
         return None, None
 
 model, scaler = load_models()
